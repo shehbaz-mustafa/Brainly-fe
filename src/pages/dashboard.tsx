@@ -6,7 +6,7 @@ import { CreateContentModal } from "../components/CreateContentModal"
 import { useState } from "react"
 import { Sidebar } from "../components/Sidebar"
 
-function Dashboard() {
+export function Dashboard() {
   const [modalOpen, setModalOpen] = useState(false);
   return <div>
     <Sidebar />

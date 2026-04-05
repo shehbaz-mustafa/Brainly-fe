@@ -1,8 +1,9 @@
-import Dashboard from "./pages/dashboard"
+
+import { Signin } from "./pages/Signin"
 
 
 function App() {
-  return <Dashboard/>
+  return <Signin/>
 
 }
 
