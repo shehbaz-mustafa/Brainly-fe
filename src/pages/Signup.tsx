@@ -5,8 +5,8 @@ import axios from "axios";
 import { BACKEND_URL } from "../config";
 
 export function Signup() {
-        const usernameRef = useRef<HTMLInputElement>();
-        const passwordRef = useRef<HTMLInputElement>();
+        const usernameRef = useRef<HTMLInputElement>(null);
+        const passwordRef = useRef<HTMLInputElement>(null);
 
     async function signup() {
         const username = usernameRef.current?.value;
